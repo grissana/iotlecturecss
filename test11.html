@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #aa p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- css slector แ่บที่  7: descendant selector -->
+    <!-- s1 s2 คั่นด้วย space คือ s2 ทั้งหมด ที่อยู่ภายใต้ s1 -->
+    <div id="aa">
+      <p>11111</p>
+      <p>22222</p>
+      <div id="bb">
+        <p>33333</p>
+        <div id="cc">
+          <p>44444</p>
+        </div>
+        <p>55555</p>
+      </div>
+      <p>66666</p>
+    </div>
+    <p>77777</p>
+    <p>88888</p>
+    <p></p>
+  </body>
+</html>
